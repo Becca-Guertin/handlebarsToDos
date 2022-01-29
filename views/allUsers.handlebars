@@ -1,0 +1,11 @@
+<h1>My name is becca and my favorite food is {{favoriteFood}}</h1>
+
+<ul>
+    {{#each users as |user|}}
+        <li>
+            <p>User id: {{user.id}}</p>
+            <p>Username: {{user.username}}</p>
+            <p>User email: {{user.email}}</p>
+        </li>
+    {{/each}}
+</ul>
